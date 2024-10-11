@@ -32,6 +32,7 @@ header {
     color: #3c3967;
 }
 .menu-harian a{
+    display: inline-block;
     color: rgb(230, 226, 220);
     text-decoration: none;
 }
@@ -100,6 +101,10 @@ ul li{
 .renungan-harian {
     padding: 20px;
     text-align: center;
+}
+.menu-harian a{
+    display: inline-block;
+    float: none;
 }
 .renungan-harian p{
     margin: 15px;
