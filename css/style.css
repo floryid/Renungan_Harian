@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #454175;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+.menu-harian{
+    display: flex;
+}
+.menu-harian li{
+    padding: 5px;
+    margin: 2px;
+    border-radius: 5px;
+}
+.menu-harian a:hover{
+    background: #f1f9fb;
+    padding: 10px;
+    transition-duration: 0.3s;
+    border-radius: 5px;
+    color: #3c3967;
+}
+.menu-harian a{
+    color: rgb(230, 226, 220);
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin: 0 15px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 1px;
+    gap: 15px;
+}
+.logo{
+    margin-bottom: 20px;
+}
+.nav-links a:hover{
+    width: 150px;
+    background: #eef2f3;
+    color: #3c3967;
+    padding: 10px;
+    width: 150px;
+    transition-duration: 0.3s;
+    border-radius: 5px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+ul li{
+    list-style-type: none;
+}
+
+.hero {
+    background: url('../image/BG\ \(2\).png') no-repeat center center/cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+
+}
+.hero h1{
+    background: #454175;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 3px;
+    box-shadow: 10px 10px 5px 0px rgba(57, 75, 163, 0.75);
+}
+.hero p{
+    background: #4CAF50;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px 0px rgba(17, 98, 49, 0.75);
+}
+
+.renungan-harian {
+    padding: 20px;
+    text-align: center;
+}
+.renungan-harian p{
+    margin: 15px;
+}
+.renungan-detail{
+    padding: 10px;
+    text-align: center;
+}
+.renungan-detail h1,h2{
+    padding: 15px;
+}
+.renungan-detail p{
+    margin: 20px;
+}
+.doa{
+    background-image: url(../image/bg\ runungan\ \(3\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 5px 10px;
+    text-align: center;
+}
+.doa p{
+    background: #454175;
+    margin: 25px;
+    color: #eef2f3;
+    border-radius: 10px;
+    padding: 10px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.doa h1, h2,h3{
+    display: inline;
+    color: #454175;
+    background: #eef2f3;
+    margin: 15px;
+    width: max-content;
+    border-radius:5px ;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.devotional{
+    text-align: center;
+}
+.devotional h1, h2, h3{
+    padding: 12px;
+    display: inline-block;
+    margin: 0;
+}
+article h2{
+    margin: 0px;
+}
+article p{
+    margin: 15px;
+}
+
+.day {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+}
+.p{
+    margin-bottom: 10px;
+    
+}
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn:hover{
+    background: #e9e8ef;
+    transition-delay: 0.3s;
+    padding: 15px;
+    color: #3c3967;
+}
+.contact p{
+    margin: 15px;
+}
+.contact{
+    height: 700px;
+}
+.about-us{
+    height: 700px;
+    padding: 15px;
+    text-align: center;
+}
+.about-us h1{
+    padding: 15px;
+}
+
+footer {
+    margin-top: 10px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+/* Styles for small screens (like mobile devices) */
+@media screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  
+    .menu-harian {
+      display:block; /* Hide navbar on mobile */
+      text-align: right;
+    }
+    .nav-links li{
+        display: block;
+        text-align: left;
+    }
+    .hero {
+        background: url('../image/BG\ \(2\).png') no-repeat center center/cover;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-align: center;
+    
+    }
+    .hero h1,p{
+        font-size: 15px;
+    }
+  
+    .content {
+      padding: 20px;
+      font-size: 16px;
+    }
+  }
