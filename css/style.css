@@ -124,6 +124,7 @@ ul li{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     padding: 5px 10px;
     text-align: center;
 }
@@ -143,8 +144,14 @@ ul li{
     width: max-content;
     border-radius:5px ;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    padding: 10px;
 }
 .devotional{
+    background-image: url(../image/doa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     text-align: center;
 }
 .devotional h1, h2, h3{
@@ -156,7 +163,11 @@ article h2{
     margin: 0px;
 }
 article p{
+    background: #454175;
+    color: #f4f4f4;
     margin: 15px;
+    border-radius: 5px;
+    padding: 20px;
 }
 
 .day {
